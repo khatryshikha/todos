@@ -19,6 +19,6 @@ A simple CRUD app in Django
  - Clone the rep.
  - Create a virtualenv with name venv, activate it and run `pip install -r requirements.txt`. If you choose other name modify the .gitignore accordingly.
  - Create local database `python manage.py migrate ` and `python manage.py makemigrations`
- - Run it python manage.py runserver
+ - Run it `python manage.py runserver `
 
 Contributor @khatryshikha and @Pratibha-Goyal
