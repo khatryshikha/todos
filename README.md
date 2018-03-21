@@ -17,11 +17,11 @@ A simple CRUD app in Django
 #### <i class="icon-file"></i> Running locally
 
  - Clone the repo
-   >`git clone {{repo .git link}}`
+   `git clone {{repo .git link}}`
  - Create a virtualenv with name venv
-   >`virtualenv venv`
+   `virtualenv venv`
    Activate it 
-   >`source venv/bin/activate`
+   `source venv/bin/activate`
    and run `pip install -r requirements.txt`. If you choose other name modify the .gitignore accordingly.
  - Create local database `python manage.py migrate ` and `python manage.py makemigrations`
  - Run it `python manage.py runserver `
