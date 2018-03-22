@@ -1,0 +1,15 @@
+{% include 'partials/header.html' %}
+<form action="{% url 'updater' %}" method="post">
+{% csrf_token %}
+  <label for="title">Title</label><br />
+  <input type="text" name="title" id="title" value='{{todo.title}}' />
+  <br>
+  <label for="text">Text</label><br />
+  <textarea name="text" id="text" value='{{todo.text}}'></textarea>
+  <br><br>
+  <input type="hidden" name="id" value='{{todo.id}}'>
+  <input type="submit" value="Update" />
+</form>
+<br>
+<a href="/">Go Back</a>
+{% include 'partials/footer.html' %}

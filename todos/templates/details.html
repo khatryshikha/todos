@@ -5,4 +5,10 @@
   <p>{{todo.text}}</p>
   <br>
   Created on {{todo.created_at}}
+  <br>
+  <br>
+  <a href="/todos/delete/{{todo.id}}">Delete this todo</a>
+  <br>
+  <br>
+  <a href="/todos/update/{{todo.id}}">Update this todo</a>
 {% include 'partials/footer.html' %}

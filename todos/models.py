@@ -9,3 +9,9 @@ class Todo(models.Model):
     created_at = models.DateTimeField(default=datetime.now, blank=True)
     def __str__(self):
         return self.title
+
+#class user(models.Model):
+	#user_id=
+	#name = models.CharField(max_length=200)
+	#password = models.CharField(max_length=200)
+	
